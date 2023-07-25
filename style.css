@@ -193,6 +193,15 @@ header{
   }
 
 /*abertura-capa dos filmes, series e canais*/
+  .mobile-menu-icon{
+    display: none;
+  }
+  .mobile-menu{
+    display: none;
+  }
+  i#menu-responsive{
+    display: none;
+  }
   .description-filmes{
     text-align: center;
     margin-top: 17vh;
@@ -206,29 +215,26 @@ header{
 .box{
     display: flex;
     justify-content: center;
-    gap: 1vw;
     height: 20vh;
     margin-top: 2vh;
 }
 .box-2{
     display: flex;
     justify-content: center;
-    gap: 1vw;
     height: 20vh;
     margin-top: 2vh;
 }
 .box-3{
     display: flex;
     justify-content: center;
-    gap: 1vw;
     height: 20vh;
     margin-top: 2vh;
 }
 .box-image img{
-    height: 30vh;
-    width: 11vw;
+    height: 28vh;
+    width: 10vw;
     border-radius: 5px;
-    padding:7px;
+    padding: 7px;
     box-shadow: 5px 10px 18px #888888;
 }
 /*fechamento-capa dos filmes, series e canais*/
@@ -340,12 +346,14 @@ hr{
   height: 50vh;
   width: 70vw;
   margin-bottom: 2vh;
+  margin-right: 5vw;
 }
 .lista-revenda{
-  padding:0 10% 0 10%;
+  padding:0 10vw 0 10vw;
 }
 .lista-revenda li{
   margin-top: 2vh;
+  font-size: 0.9rem;
 }
 .lista-revenda h4{
   font-size: 1.3rem;
@@ -357,10 +365,10 @@ hr{
   font-weight: bold;
 }
 .aplicativos-imagens{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(5,2fr);
   gap: 1vw;
-  margin: 2vh 2vw 2vh 12.5vw;
+  margin: 2vh 12.5vw 2vh 12.5vw;
 }
 .aplicativos-imagens img{
   height: 24vh;
@@ -385,3 +393,352 @@ footer{
 }
 
 
+
+
+
+@media screen and (min-width: 375px) and (max-width: 667px)
+{
+  *{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+  
+  }
+  .float{
+    position:fixed;
+    margin-top: 87vh;
+    margin-left: -14vw;
+  }
+  .float img{
+    width: 20vw;
+    height: 8vh;
+  }
+  header{
+    width: auto;
+  }
+  .dispositivos{
+    display: none;
+  }
+  .logo img{
+    height: 10vh;
+    width: 17vw;
+  }
+  .informacoes{
+    font-size: 1rem;
+  }
+  .titulo{
+    font-size: 1.2rem;
+  }
+  .description-filmes{
+    margin-top: 0vh;
+    font-size: 0.8rem;
+
+  }
+  .description-canais{
+    margin-top: 19vh;
+    font-size: 1rem;
+  }
+  .box{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 0.5vw;
+  
+  }
+  .box img{
+    width: 20vw;
+    height: 18vh;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 1.8vw;
+  }
+  .box-3{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 0.5vw;
+  }
+  .box-3 img{
+    width: 20vw;
+    height: 18vh;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 1.8vw;
+  }
+  .planos{
+    margin-top: 20vh;
+    font-size: 1rem;
+  }
+  .period h3{
+    font-size: 1.3rem;
+  }
+  .content p{
+    font-size: 0.9rem;
+  }
+  .botao a{
+    font-size: 0.9rem;
+    padding: 0.2rem;
+  }
+  .info{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 1vw;
+    
+  }
+  .signature{
+    width: 42vw;
+    margin-top: 0.15vh;
+  }
+  .signature h3{
+    font-size: 1.1rem;
+  }
+  .aplicativos-apps h3{
+    font-size: 1rem;
+  }
+  .aplicativos-imagens{
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+    padding: 1%;
+    margin: auto;
+  }
+  .aplicativos-imagens img{
+    width: 17vw;
+    height: 12vh;
+
+  }
+  .revenda-descricao h3{
+    font-size: 1.5rem;
+    margin-top: 4vh;
+  }
+  .revenda{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .revenda img{
+    margin-top: 3vh;
+    width: 90vw;
+    height: 25vh;
+    margin: 3.5vw;
+  }
+  .lista-revenda h4{
+    font-size: 0.8rem;
+  }
+  .lista-revenda li{
+    font-size: 0.9rem
+  }
+  
+  footer p{
+    font-size: 0.55rem;
+    margin-right: 7vw;
+}
+}
+
+@media screen and (min-width: 414px) and (max-width: 896px)
+{
+  *{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+  }
+  .float{
+    position:fixed;
+    margin-top: 93vh;
+    margin-left: -15vw;
+  }
+  .float img{
+    width: 24vw;
+    height: 6vh;
+  }
+  header{
+    width: auto;
+  }
+  .dispositivos{
+    display: none;
+  }
+  .logo img{
+    height: 10vh;
+    width: 20vw;
+  }
+  .informacoes{
+    font-size: 1.3rem;
+  }
+  .titulo{
+    font-size: 1.2rem;
+  }
+  .description-filmes{
+    margin-top: 2vh;
+    font-size: 0.8rem;
+  }
+  .description-canais{
+    margin-top: 12vh;
+    font-size: 1rem;
+  }
+  .box{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 0.5vw;
+  }
+  .box img{
+    width: 20vw;
+    height: 14vh;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 1.8vw;
+  }
+  .box-3{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 0.5vw;
+  }
+  .box-3 img{
+    width: 20vw;
+    height: 14vh;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 1.8vw;
+  }
+  .planos{
+    margin-top: 12vh;
+    font-size: 1.2rem;
+  }
+  .period h3{
+    font-size: 1.3rem;
+  }
+  .content p{
+    font-size: 1rem;
+  }
+  .botao a{
+    font-size: 1.1rem;
+    padding: 0.2rem;
+  }
+  .info{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 1vw;
+  }
+  .signature{
+    width: 42vw;
+    margin-top: 1vh;
+  }
+  .signature h3{
+    font-size: 1.1rem;
+  }
+  .aplicativos-apps h3{
+    font-size: 1rem;
+  }
+  .aplicativos-imagens{
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+    padding: 1%;
+    margin: auto;
+  }
+  .aplicativos-imagens img{
+    width: 18vw;
+    height: 10vh;
+  }
+  .revenda-descricao h3{
+    font-size: 1.5rem;
+    margin-top: 4vh;
+  }
+  .revenda{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .revenda img{
+    margin-top: 3vh;
+    width: 90vw;
+    height: 25vh;
+    margin: 3.5vw;
+  }
+  .lista-revenda h4{
+    font-size: 0.8rem;
+  }
+  .lista-revenda li{
+    font-size: 0.9rem
+  }
+  
+  footer p{
+    font-size: 0.7rem;
+    margin-left: 8vw;
+}
+}
+
+
+@media screen and (min-width: 390px) and (max-width: 844px)
+{
+
+  
+  .float{
+    position:fixed;
+    margin-top: 93vh;
+    margin-left: -15vw;
+  }
+  .float img{
+    width: 24vw;
+    height: 6vh;
+  }
+  header{
+    width: auto;
+  }
+  .logo img{
+    height: 10vh;
+    width: 20vw;
+  }
+  .informacoes{
+    font-size: 1.25rem;
+  }
+  .box img{
+    width: 20vw;
+    height: 14vh;
+  }
+  .description-filmes{
+    margin-top: 3vh;
+  }
+  .description-canais{
+    margin-top: 12vh;
+  }
+  .box-3 img{
+    width: 20vw;
+    height: 14vh;
+  }
+  .planos{
+    margin-top: 13vh;
+  }
+  .aplicativos-imagens img{
+    width: 18vw;
+    height: 10vh;
+  }
+  footer p{
+    font-size: 0.7rem;
+    margin-left: 5vw;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px)
+{
+  .dispositivos{
+      display: none;
+  }
+  .logo img{
+    width: 23vw;
+    height: 12vh;
+  }
+  .informacoes{
+    font-size: 1.05rem;
+  }
+  .titulo{
+    font-size: 1.6rem;
+  }
+  .description-filmes{
+    margin-top: 3vh;
+    font-size: 1rem;
+  }
+  .box{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+  }
+  .box img{
+    width: 20vw;
+    height: 14vh;
+    padding: 1%;
+    margin-left: 2vw;
+  }
+}
