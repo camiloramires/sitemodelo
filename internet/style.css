@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 a{
     text-decoration: none;
@@ -183,4 +182,188 @@ footer{
 }
 
 
+@media screen and (min-width: 375px) and (max-width: 667px)
+{
+    
+  .float img{
+    width: 23vw;
+    height: 8vh;
+    margin-left: 76vw;
+  }
+  .logo img{
+    width: 20vw;
+    height: 12vh;
+  }
+  .informacoes{
+    font-size: 1rem;
+  }
+  main h2{
+    font-size: 1.6rem;
+  }
+  .planos{
+    margin: 2vw;
+    margin-top: 5vh;
+  }
+  .planos h3{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .coin p{
+    font-size: 1.3rem;
+  }
+  .coin-current p{
+    font-size: 1.4rem;
+  }
+  .botao a{
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    background-color: rgb(99, 170, 170);
+    color: white;
+  }
+  .botao i{
+    margin-bottom: 4vh;
+    padding-right: 0.6rem;
+  }
+  .botao a{
+    border: solid 1px white;
+  }
+  .screen{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 2vh;
+  }
+  .screen img{
+    margin: auto;
+    width: 40vw;
+    height: 15vh;
+  }
+  .screen-one{
+    width: auto;
+    margin: 10%;
+  }
+  .screen-one h3{
+    padding: 3%;
+  }
+  .content p{
+    font-size: 1.3rem;
+    font-weight: normal;
+  }
+  footer{
+    font-size: 0.6rem;
+  }
+}
 
+@media screen and (min-width: 414px) and (max-width: 896px)
+{
+  .float img{
+    width: 24vw;
+    height: 7vh;
+    margin-left: 76vw;
+  }
+  .logo img{
+    width: 22vw;
+    height:11vh;
+  }
+  .informacoes{
+    font-size: 1.2rem;
+  }
+  .screen {
+    margin-top: 1vh;
+  }
+  footer{
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 844px)
+{
+  .float img{
+    width: 25vw;
+    height: 6vh;
+    margin-left: 74vw;
+  }
+  .logo img{
+    width: 23vw;
+    height:11vh;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px)
+{
+  .float img{
+    width: 25vw;
+    height: 7vh;
+    margin-left: 74vw;
+  }
+  .logo img{
+    width: 23vw;
+    height:11vh;
+  }
+  .informacoes{
+    font-size: 1rem;
+  }
+  main h2{
+    font-size: 1.6rem;
+  }
+  .planos{
+    margin: 2vw;
+    margin-top: 5vh;
+  }
+  .planos h3{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .coin p{
+    font-size: 1.3rem;
+  }
+  .coin-current p{
+    font-size: 1.4rem;
+  }
+  .botao a{
+    padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    background-color: rgb(99, 170, 170);
+    color: white;
+  }
+  .botao i{
+    margin-bottom: 4vh;
+    padding-right: 0.6rem;
+  }
+  .botao a{
+    border: solid 1px white;
+  }
+  .screen{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 2vh;
+  }
+  .screen img{
+    margin: auto;
+    width: 40vw;
+    height: 15vh;
+  }
+  .screen-one{
+    width: auto;
+    margin: 10%;
+  }
+  footer{
+    font-size: 0.6rem;
+  }
+}
+  @media screen and (min-width: 360px) and (max-width: 740px)
+{
+  .float img{
+    width: 25vw;
+    height: 6vh;
+    margin-left: 74vw;
+  }
+  .planos{
+    margin: 2vw;
+    margin-top: 5vh;
+  }
+  footer{
+    font-size: 0.7rem;
+  }
+}

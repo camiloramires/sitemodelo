@@ -714,6 +714,16 @@ footer{
 
 @media screen and (min-width: 360px) and (max-width: 740px)
 {
+
+  .float{
+    position:fixed;
+    margin-top: 93vh;
+    margin-left: -15vw;
+  }
+  .float img{
+    width: 24vw;
+    height: 6vh;
+  }
   .dispositivos{
       display: none;
   }
@@ -741,4 +751,174 @@ footer{
     padding: 1%;
     margin-left: 2vw;
   }
+  .box-3{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+  }
+  .box-3 img{
+    width: 20vw;
+    height: 14vh;
+    padding: 1%;
+    margin-left: 2vw;
+  }
+  .description-canais{
+    margin-top: 12vh;
+    font-size: 1rem;
+  }
+  .planos{
+    font-size: 1.5rem;
+    margin-top: 13vh;
+  }
+  .period h3{
+    font-size: 1.3rem;
+  }
+  .content p{
+    font-size: 0.9rem;
+  }
+  .botao a{
+    font-size: 0.9rem;
+    padding: 0.2rem;
+  }
+  .info{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 1vw;
+  }
+  .signature{
+    width: 42vw;
+    margin-top: 1vh;
+  }
+  .signature h3{
+    font-size: 1.1rem;
+  }
+  .aplicativos-apps h3{
+    font-size: 1rem;
+  }
+  .aplicativos-imagens{
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+    padding: 1%;
+    margin: auto;
+  }
+  .aplicativos-imagens img{
+    width: 18vw;
+    height: 10vh;
+  }
+  .revenda-descricao h3{
+    font-size: 1.5rem;
+    margin-top: 4vh;
+  }
+  .revenda{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .revenda img{
+    margin-top: 3vh;
+    width: 90vw;
+    height: 25vh;
+    margin: 3.5vw;
+  }
+  .lista-revenda h4{
+    font-size: 0.8rem;
+  }
+  .lista-revenda li{
+    font-size: 0.9rem
+  }
+  
+  footer p{
+    font-size: 0.7rem;
+    margin-left: 8vw;
+}
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px)
+{
+
+
+  .float{
+    position:fixed;
+    margin-top: 93vh;
+    margin-left: -7vw;
+  }
+  .float img{
+    width: 16vw;
+    height: 6vh;
+  }
+  .logo img{
+    width: 20vw;
+    height: 12vh;
+  }
+  .informacoes{
+    font-size: 1.5rem;
+  }
+  .titulo{
+    font-size: 1.8rem;
+  }
+  .description-filmes{
+    font-size: 1.3rem;
+  }
+  .box img{
+    width: 18vw;
+    height: 16vh;
+    padding: 1%;
+    margin-left: 5vw;
+  }
+  .description-canais{
+    font-size: 1.6rem;
+    margin-top: 16vh;
+  }
+  .box-3 img{
+    width: 18vw;
+    height: 16vh;
+    padding: 1%;
+    margin-left: 5vw;
+  }
+  .planos{
+    font-size: 2rem;
+    margin-top: 16vh;
+  }
+  .period h3{
+    font-size: 2rem;
+  }
+  .content p{
+    font-size: 1.4rem;
+  }
+  .botao a{
+    font-size: 2.2rem;
+    padding: 0.2rem;
+  }
+  .info{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 1vw;
+  }
+  .signature{
+    width: 42vw;
+    height: 15vh;
+    margin-top: 1vh;
+    font-size: 1.2rem;
+  }
+  .signature h3{
+    font-size: 1.6rem;
+  }
+  .aplicativos-apps h3{
+    font-size: 1.6rem
+  }
+  .aplicativos-imagens img{
+    width: 18vw;
+    height: 12vh;
+  }
+  .revenda-descricao h3{
+    font-size: 2rem;
+  }
+  .lista-revenda h4{
+    font-size: 1.4rem;
+  }
+  .lista-revenda li{
+    font-size: 1.4rem;
+  }
+  footer p{
+    font-size: 1.2rem;
+    margin-left: 8vw;
+}
 }

@@ -117,3 +117,123 @@ header{
     margin-top: 10vh;
     margin-bottom: 2vh;
   }
+
+  @media screen and (min-width: 375px) and (max-width: 667px)
+{
+    
+  .float img{
+    width: 23vw;
+    height: 8vh;
+    margin-left: 76vw;
+  }
+  .logo img{
+    width: 20vw;
+    height: 12vh;
+  }
+  .informacoes{
+    font-size: 1rem;
+  }
+  .descrição{
+    font-size: 1.6rem;
+  }
+  .imagens-apps{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin: 4vw;
+    margin-top: 5vh;
+  }
+  .imagens-apps img{
+    width: 43vw;
+    height: 18vh;
+    margin-bottom: 3vh;
+  }
+  .imagens-apps p{
+    font-size: 1rem;
+  }
+  footer{
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px)
+{
+
+  .float img{
+    width: 20vw;
+    height: 6vh;
+    margin-left: 78vw;
+  }
+  .logo img{
+    width: 23vw;
+    height: 12vh;
+  }
+  .imagens-apps{
+    margin: 2vw;
+    margin-top: 5vh;
+  }
+  .imagens-apps img{
+    width: 45vw;
+    height: 15vh;
+    margin-bottom: 3vh;
+  }
+  .imagens-apps p{
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 844px)
+{
+  .float img{
+    width: 22vw;
+    height: 6vh;
+    margin-left: 76vw;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px)
+{
+  .float img{
+    width: 23vw;
+    height: 6vh;
+    margin-left: 76vw;
+  }
+  .logo img{
+    width: 23vw;
+    height: 12vh;
+  }
+  .informacoes{
+    font-size: 1rem;
+  }
+  .descrição{
+    font-size: 1.6rem;
+  }
+  .imagens-apps{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin: 4vw;
+    margin-top: 5vh;
+  }
+  .imagens-apps img{
+    width: 43vw;
+    height: 18vh;
+    margin-bottom: 3vh;
+  }
+  .imagens-apps p{
+    font-size: 1rem;
+  }
+  footer{
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px)
+{
+
+  .logo img{
+    width: 22vw;
+    height: 10vh;
+  }
+  footer{
+    font-size: 0.7rem;
+  }
+}

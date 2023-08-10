@@ -133,4 +133,90 @@ footer{
   margin-bottom: 2vh;
 }
 
+@media screen and (min-width: 375px) and (max-width: 667px)
+{
+    
+  .float img{
+    width: 23vw;
+    height: 7vh;
+    margin-left: 76vw;
+  }
+  .logo img{
+    width: 22vw;
+    height: 13vh;
+  }
+  .informacoes{
+    font-size: 1rem;
+  }
+  .secao-1, .secao-2, .secao-3, .secao-4, .secao-5, .secao-6{
+    margin-top: 3vh;
+  }
+  .secao-1 img, .secao-2 img, .secao-3 img, .secao-4 img, .secao-5 img, .secao-6 img{
+    width: 18vw;
+    height: 10vh;
+  }
+  .secao-1 figcaption, .secao-2 figcaption, .secao-3 figcaption, .secao-4 figcaption, .secao-5 figcaption, .secao-6 figcaption{
+    font-size: 0.7rem;
+  }
+  footer{
+    font-size: 0.6rem;
+  }
+}
 
+@media screen and (min-width: 390px) and (max-width: 844px)
+{
+
+  .float img{
+    width: 23vw;
+    height: 6vh;
+    margin-left: 76vw;
+  }
+  .logo img{
+    width: 22vw;
+    height: 11vh;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px)
+{
+    
+  .float img{
+    width: 23vw;
+    height: 7vh;
+    margin-left: 76vw;
+  }
+  .logo img{
+    width: 23vw;
+    height: 13vh;
+  }
+  .informacoes{
+    font-size: 1rem;
+  }
+  .secao-1, .secao-2, .secao-3, .secao-4, .secao-5, .secao-6{
+    margin-top: 3vh;
+  }
+  .secao-1 img, .secao-2 img, .secao-3 img, .secao-4 img, .secao-5 img, .secao-6 img{
+    width: 18vw;
+    height: 10vh;
+  }
+  .secao-1 figcaption, .secao-2 figcaption, .secao-3 figcaption, .secao-4 figcaption, .secao-5 figcaption, .secao-6 figcaption{
+    font-size: 0.7rem;
+  }
+  footer{
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 915px)
+{
+
+  .float img{
+    width: 23vw;
+    height: 6vh;
+    margin-left: 76vw;
+  }
+  .logo img{
+    width: 23vw;
+    height: 11vh;
+  }
+}
